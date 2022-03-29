@@ -1,6 +1,43 @@
 /* body{
     
 } */
+header{
+    background: #BBBBBB;
+    
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    border: 1px red;
+    
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
 
 #banner{
     width: 100%;
@@ -11,7 +48,9 @@
 }
 
 .titulo-principal{
+    text-align: center;
     padding-left: 20px;
+    font-weight: bold;
 }
 
 .titulo-centralizado {
