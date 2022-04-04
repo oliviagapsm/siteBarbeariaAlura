@@ -279,3 +279,9 @@ img ~ p{
         width: 100%;
     }
 }
+
+/*Css Formulário*/
+
+.form{
+    padding-left: 20px;
+}
